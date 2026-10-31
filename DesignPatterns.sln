@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameCharacterPrototype", "p
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentPrototype", "prototype\DocumentPrototype\DocumentPrototype.csproj", "{D7DF9744-51FB-4214-AE5D-D179C0363733}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "factoriy", "factoriy", "{8E674480-2568-0ED7-AA0D-8B80CF50D828}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "factory", "factory", "{8E674480-2568-0ED7-AA0D-8B80CF50D828}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeFactory", "factoriy\CafeFactory\CafeFactory.csproj", "{2B8544C0-0100-4A88-ADC5-E31C6813594F}"
 EndProject
