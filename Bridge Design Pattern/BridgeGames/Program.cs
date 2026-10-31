@@ -7,7 +7,6 @@ public class Program
         IDeveloper javaDeveloper = new JavaDeveloper();
         IDeveloper cppDeveloper = new CppDeveloper();
 
-        // 4 ta kombinatsiya
         Game[] games =
         {
             new RacingGame(javaDeveloper),

@@ -7,7 +7,6 @@ public class Computer
     public int Gpu { get; }
     public int Storage { get; }
 
-    // Faqat ComputerBuilder orqali yaratiladi
     internal Computer(int ram, int cpu, int gpu, int storage)
     {
         Ram = ram;

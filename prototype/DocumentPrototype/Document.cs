@@ -17,7 +17,6 @@ public class Document : ICopyable<Document>
         Tags = tags;
     }
 
-    // Copy constructor — Deep Copy: tags uchun yangi ro'yxat yaratiladi
     public Document(Document source)
     {
         Id = source.Id;
@@ -32,7 +31,6 @@ public class Document : ICopyable<Document>
         return new Document(this);
     }
 
-    // Faqat taqqoslash uchun: Shallow Copy — Tags ro'yxati umumiy bo'lib qoladi
     public Document ShallowClone()
     {
         return (Document)MemberwiseClone();

@@ -1,6 +1,5 @@
 namespace ComputerBuilder;
 
-// Fluent builder: har bir Set metodi builder'ni qaytaradi, oxirida Build()
 public class ComputerBuilder
 {
     private int _ram;

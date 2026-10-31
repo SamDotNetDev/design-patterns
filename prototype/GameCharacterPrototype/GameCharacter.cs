@@ -16,7 +16,6 @@ public class GameCharacter : ICopyable<GameCharacter>
         Weapon = weapon;
     }
 
-    // Har safar yangi obyekt qaytaradi
     public GameCharacter Clone()
     {
         return new GameCharacter(Id, Name, Level, Weapon);

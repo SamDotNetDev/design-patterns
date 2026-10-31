@@ -1,6 +1,5 @@
 namespace CafeFactory;
 
-// Ichimlik yaratish mantig'i bitta joyda — Cafe endi aniq klasslarni bilmaydi
 public class DrinkFactory
 {
     public IDrink Create(string drinkType)
